@@ -9,7 +9,7 @@
 
 
 #### A visual
-![visual](401dd2a-ef80-4a78-8975-b21f5c83664e.jpg)
+![visual](4401dd2a-ef80-4a78-8975-b21f5c83664e.jpg)
 
 <!--
 #### Theme: Enhancing Healthcareâ€™s Digital Front Door
