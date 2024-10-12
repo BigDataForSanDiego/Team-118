@@ -1,16 +1,15 @@
 ### 2024 BIG DATA HACKATHON PROPOSAL FORM
 
-#### Team Number: `YOUR TEAM NUMBER HERE`  
+#### Team Number: `118`  
 
-#### Team Name: `YOUR TEAM NAME HERE`    
+#### Team Name: `Sixth Sense`    
   
 #### Your teamâ€™s hackathon idea in One sentence:
-##### `YOUR ONE SENTENCE HERE`
+##### `Trialize: We make it simple and secure to match potential participants with researchers for clinical trials through existing healthcare applications.`
 
 
 #### A visual
-![bigdatahackathon4sd](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/templates/img/bigdatahackathon_sd_2024.png?raw=true "Big Data Hackathon for San Diego 2024")
-<img height="10%" width="50%" alt="HDMA" src="https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/templates/img/hdma2.png?raw=true"> 
+![visual](401dd2a-ef80-4a78-8975-b21f5c83664e.jpg)
 
 <!--
 #### Theme: Enhancing Healthcareâ€™s Digital Front Door
@@ -22,7 +21,7 @@
 > How can we make it easier to access care (especially specialists) and provide clear, timely notifications, and reminders along their healthcare journey?
 - [ ] Patient satisfaction
 > How can we make it more convenient for patients to provide real-time feedback about their healthcare experience through a mobile app?
-- [ ] New patient experience
+- [X] New patient experience
 > As a potential new customer, how can we leverage the mobile app to help new patients better understand what services are available to them?
 - [ ] Managing my health
 > Itâ€™s easy to get overwhelmed by all the tasks patients often have to do to maintain their health, how can we make managing health more enjoyable?
@@ -40,7 +39,7 @@
 > How can we leverage big (geospatial) data analytics and AI to improve access to resources that mitigate the impact of environmental factors, i.e. pollution, on health disparities?
 
 
-#### Team Coordinator GitHub Username: `YOUR TEAM COORDINATOR GITHUB USERNAME HERE`
+#### Team Coordinator GitHub Username: `molit123`
 
-#### Team Members `YOUR TEAM MEMBERS NAME & GITHUB USERNAME HERE`
+#### Team Members `catliba (Caleb Li), LTNguyen (Larry Nguyen), molit123 (Mohit Sridhar), psjcodes (Pranay Jha)`
 
