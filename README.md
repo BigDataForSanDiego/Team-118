@@ -41,5 +41,5 @@
 
 #### Team Coordinator GitHub Username: `molit123`
 
-#### Team Members `catliba (Caleb Li), LTNguyen (Larry Nguyen), molit123 (Mohit Sridhar), psjcodes (Pranay Jha)`
+#### Team Members `catliba (Caleb Li), LarryTNguyen (Larry Nguyen), molit123 (Mohit Sridhar), psjcodes (Pranay Jha)`
 
