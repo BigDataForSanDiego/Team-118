@@ -142,5 +142,11 @@
                 "type": "string"
             }
         }
-    }
+    },
+    "required": [
+        "name",
+        "location",
+        "qualifications",
+        "disqualifications"
+    ]
 }

@@ -12,6 +12,9 @@
         "location": {
             "type": "object",
             "properties": {
+                "address": {
+                    "type": "string"
+                },
                 "city": {
                     "type": "string",
                     "default": ""
@@ -42,13 +45,13 @@
             "type": "boolean",
             "default": false
         },
-        "past_conditions": {
+        "condition": {
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
-        "immunization": {
+        "Immunization": {
             "type": "string"
         },
         "observation": {
@@ -57,13 +60,22 @@
                 "type": "string"
             }
         },
-        "allergies": {
+        "AllergyIntolerance": {
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "procedure": {
+            "type": "string"
+        },
+        "medicationRequest": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "goal": {
             "type": "string"
         }
     },
