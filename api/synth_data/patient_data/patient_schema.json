@@ -12,9 +12,12 @@
         "location": {
             "type": "object",
             "properties": {
+<<<<<<< HEAD
                 "address": {
                     "type": "string"
                 },
+=======
+>>>>>>> refs/remotes/origin/main
                 "city": {
                     "type": "string",
                     "default": ""
@@ -45,13 +48,21 @@
             "type": "boolean",
             "default": false
         },
+<<<<<<< HEAD
         "condition": {
+=======
+        "past_conditions": {
+>>>>>>> refs/remotes/origin/main
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
+<<<<<<< HEAD
         "Immunization": {
+=======
+        "immunization": {
+>>>>>>> refs/remotes/origin/main
             "type": "string"
         },
         "observation": {
@@ -60,7 +71,11 @@
                 "type": "string"
             }
         },
+<<<<<<< HEAD
         "AllergyIntolerance": {
+=======
+        "allergies": {
+>>>>>>> refs/remotes/origin/main
             "type": "array",
             "items": {
                 "type": "string"
@@ -68,6 +83,7 @@
         },
         "procedure": {
             "type": "string"
+<<<<<<< HEAD
         },
         "medicationRequest": {
             "type": "array",
@@ -77,6 +93,8 @@
         },
         "goal": {
             "type": "string"
+=======
+>>>>>>> refs/remotes/origin/main
         }
     },
     "required": [
