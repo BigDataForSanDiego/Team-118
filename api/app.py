@@ -12,7 +12,7 @@ given the mrn as query we retrieve the necessary patient data from SHP
 then do the documentdb search and return the relevant trials that populate the screen
 ex. [base]/patients/trials?mrn=01
 """
-@app.route('/patients/trials', method=['GET'])
+@app.route('/patients/trials', methods=['GET'])
 def get_trials():
     mrn = request.args.get('mrn')
     if mrn:
@@ -24,15 +24,15 @@ def get_trials():
 """
 the rest of these would only be used if we have the researcher client set up
 """
-@app.route('/researchers/post_trial', method=['POST'])
+@app.route('/researchers/post_trial', methods=['POST'])
 def post_trial():
     pass
 
-@app.route('/researchers/update_trial', method=['PATCH'])
+@app.route('/researchers/update_trial', methods=['PATCH'])
 def update_trial():
     pass
 
-@app.rout('/researchers/delete_trial', method=['DELETE'])
+@app.route('/researchers/delete_trial', methods=['DELETE'])
 def delete_trial():
     pass
 
