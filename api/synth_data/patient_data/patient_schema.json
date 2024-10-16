@@ -37,11 +37,11 @@
             "type": "string",
             "default": "Unknown"
         },
-        "veteran_status": {
+        "veteranstatus": {
             "type": "boolean",
             "default": false
         },
-        "disability_status": {
+        "disabilitystatus": {
             "type": "boolean",
             "default": false
         },
@@ -51,8 +51,16 @@
                 "type": "string"
             }
         },
-        "Immunization": {
-            "type": "string"
+        "immunization": {
+            "type": "object",
+            "properties": {
+                "vaccines": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "string"
+                    }
+                }
+            }
         },
         "observation": {
             "type": "array",
@@ -60,16 +68,19 @@
                 "type": "string"
             }
         },
-        "AllergyIntolerance": {
+        "allergyintolerance": {
             "type": "array",
             "items": {
                 "type": "string"
             }
         },
         "procedure": {
-            "type": "string"
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         },
-        "medicationRequest": {
+        "medicationrequest": {
             "type": "array",
             "items": {
                 "type": "string"
