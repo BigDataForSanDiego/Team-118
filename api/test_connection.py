@@ -2,20 +2,48 @@ import pymongo
 import sys
 import json
 
-## Create a MongoDB client, open a connection to Amazon DocumentDB as a replica set and specify the read preference as secondary preferred
-client = pymongo.MongoClient('mongodb+srv://molit:cr78tq47o4DTEuem@trialize.gs0xa.mongodb.net/?retryWrites=true&w=majority&appName=trialize') 
+##Create a MongoDB client, open a connection to Amazon DocumentDB as a replica set and specify the read preference as secondary preferred
+client = pymongo.MongoClient('mongodb+srv://catlib:VMRGf0Ey0CNgvNgB@trialize.gs0xa.mongodb.net/?retryWrites=true&w=majority&appName=trialize') 
 
-## Specify the database to be used
+##Specify the database to be used
 db = client.trialize_main
 
-## Load JSON data
-with open('synth_data/trial_data/sample_trials.json') as f:
-    trial_data = json.load(f)
-
-db.trials.insert_many(trial_data['trials'])
+##Insert a single document
+db.trials.insert_one({
+            "name": "Phase 2 Clinical Trial for Type 2 Diabetes Medication",
+            "location": {
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": "94103"
+            },
+            "qualifications": {
+                "ageRange": {
+                    "minAge": 18,
+                    "maxAge": 65
+                },
+                "gender": "Any",
+                "race": "Any",
+                "veteran_status": False,
+                "disability_status": False,
+                "past_conditions": [
+                    "Type 2 Diabetes",
+                    "High Blood Pressure"
+                ],
+                "immunization": "Up-to-date COVID-19 vaccination",
+                "observation": [
+                    "Glucose levels",
+                    "Blood pressure",
+                    "Body mass index"
+                ],
+                "allergies": [
+                    "None"
+                ],
+                "procedure": "Daily oral medication for 12 weeks, with bi-weekly check-ins."
+            }
+        })
 
 ##Find the document that was previously written
-x = db.trials.find_one({'name':"Phase 1 Clinical Trial for Peripheral Artery Disease Treatment"})
+x = db.trials.find_one({'name':'Phase 2 Clinical Trial for Type 2 Diabetes Medication'})
 
 ## Print the result to the screen
 print(x[''])
