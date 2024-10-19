@@ -3,9 +3,9 @@
     "age": 42,
     "location": {
         "address": "159 Brainwave St",
-        "city": "Seattle",
-        "state": "WA",
-        "zip": "98101"
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92093"
     },
     "gender": "Male",
     "race": "Caucasian",

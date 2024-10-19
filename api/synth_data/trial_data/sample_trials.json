@@ -3,9 +3,9 @@
         {
             "name": "Phase 2 Clinical Trial for Type 2 Diabetes Medication",
             "location": {
-                "city": "San Francisco",
+                "city": "San Diego",    
                 "state": "CA",
-                "zip": "94103"
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -35,9 +35,9 @@
         {
             "name": "Phase 3 Clinical Trial for New Breast Cancer Treatment",
             "location": {
-                "city": "Houston",
-                "state": "TX",
-                "zip": "77030"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -67,9 +67,9 @@
         {
             "name": "Phase 1 Clinical Trial for New Heart Disease Treatment",
             "location": {
-                "city": "Chicago",
-                "state": "IL",
-                "zip": "60611"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -99,9 +99,9 @@
         {
             "name": "Phase 2 Clinical Trial for HIV Preventative Medication",
             "location": {
-                "city": "New York",
-                "state": "NY",
-                "zip": "10016"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -131,9 +131,9 @@
         {
             "name": "Phase 2 Clinical Trial for HIV Preventative Medication",
             "location": {
-                "city": "New York",
-                "state": "NY",
-                "zip": "10016"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -163,9 +163,9 @@
         {
             "name": "Phase 1 Clinical Trial for Fahr's Disease Treatment",
             "location": {
-                "city": "Boston",
-                "state": "MA",
-                "zip": "02115"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -229,9 +229,9 @@
         {
             "name": "Phase 2 Clinical Trial for Hormone-Receptor Positive Breast Cancer",
             "location": {
-                "city": "Seattle",
-                "state": "WA",
-                "zip": "98109"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -261,9 +261,9 @@
         {
             "name": "Phase 1 Clinical Trial for General Health Multivitamin Supplement",
             "location": {
-                "city": "Miami",
-                "state": "FL",
-                "zip": "33101"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92093"
             },
             "qualifications": {
                 "ageRange": {
@@ -294,9 +294,9 @@
         {
             "name": "Phase 2 Clinical Trial for Dietary Intervention in Weight Management",
             "location": {
-                "city": "Chicago",
-                "state": "IL",
-                "zip": "60614"
+                "city": "San Diego",
+                "state": "CA",
+                "zip": "92092"
             },
             "qualifications": {
                 "ageRange": {
