@@ -2,7 +2,7 @@ import pymongo
 import sys
 
 ##Create a MongoDB client, open a connection to Amazon DocumentDB as a replica set and specify the read preference as secondary preferred
-client = pymongo.MongoClient('') 
+client = pymongo.MongoClient('mongodb+srv://catlib:VMRGf0Ey0CNgvNgB@trialize.gs0xa.mongodb.net/?retryWrites=true&w=majority&appName=trialize') 
 
 ##Specify the database to be used
 db = client.trialize_main
