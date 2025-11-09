@@ -12,9 +12,8 @@
 ##### `A text message virtual system that guides homeless individuals via sms towards resources.' 
 
 #### A visual
-![bigdatahackathon4sd](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/images/big_data_2025_clip.png?raw=true "Big Data Hackathon for San Diego 2025")
+<img width="1024" height="553" alt="image" src="https://github.com/user-attachments/assets/3e576646-93e7-4e56-8616-4fa46d07b565" />
 
-<img height="10%" width="50%" alt="HDMA" src="https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/templates/img/hdma2.png?raw=true"> 
 
 
 #### Hackathon Five CORE Themes. `CHECK ONE or TWO QUESTIONS (insert X in [ ])`.
